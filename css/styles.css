@@ -285,6 +285,15 @@ html {
     grid-row: span 1;
   }
   
+  .gallery-video {
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+  }
+   .gallery-video:hover {
+transform: scale(1.5);
+   }
+  
   /* Styles for embedded shop Page */
   .shop-page {
     padding: 2rem 1rem 10rem 1rem;
